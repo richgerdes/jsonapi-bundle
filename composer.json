@@ -1,0 +1,24 @@
+{
+    "name": "richgerdes/jsonapi-bundle",
+    "description": "JsonAPI API Bundle for Symfony",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RichGerdes\\JsonApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rich Gerdes",
+            "email": "rich@richgerdes.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "6.4.x-dev",
+        "doctrine/collections": "3.0.x-dev",
+        "symfony/serializer": "6.4.x-dev",
+        "symfony/property-access": "6.4.x-dev"
+    }
+}
