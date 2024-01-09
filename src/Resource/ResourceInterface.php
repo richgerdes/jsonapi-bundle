@@ -16,8 +16,4 @@ interface ResourceInterface extends ResourceStubInterface {
 
   public function setLinks(?LinkCollection $links);
 
-  public function getMeta(): ?MetaInterface;
-
-  public function setMeta(?MetaInterface $meta);
-
 }
