@@ -6,6 +6,18 @@ use RichGerdes\JsonApi\Resource\Link\LinkCollection;
 use RichGerdes\JsonApi\Resource\Meta\MetaInterface;
 
 interface ErrorInterface {
+  
+  public const KEYWORD_ID = 'id';
+
+  public const KEYWORD_LINKS_ABOUT = 'about';
+  
+  public const KEYWORD_LINKS_TYPE = 'type';
+  
+  public const KEYWORD_STATUS = 'status';
+  
+  public const KEYWORD_CODE = 'code';
+  
+  public const KEYWORD_DETAIL = 'detail';
 
   public function getId(): ?string;
 

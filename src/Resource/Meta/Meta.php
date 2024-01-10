@@ -3,8 +3,6 @@
 namespace RichGerdes\JsonApi\Resource\Meta;
 
 class Meta implements MetaInterface {
-
-  public const KEYWORD_META = 'meta';
   
   /**
    * The meta data values.

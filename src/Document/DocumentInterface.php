@@ -9,8 +9,6 @@ interface DocumentInterface {
 
   public const KEYWORD_DATA = 'data';
 
-  public const KEYWORD_INCLUDED = 'included';
-
   public const KEYWORD_LINKS = 'links';
 
   public const KEYWORD_META = 'meta';

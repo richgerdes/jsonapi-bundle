@@ -3,6 +3,8 @@
 namespace RichGerdes\JsonApi\Resource\Meta;
 
 interface MetaInterface {
+
+  public const KEYWORD_META = 'meta';
   
   public function getItems(): array;
   

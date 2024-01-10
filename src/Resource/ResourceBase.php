@@ -19,6 +19,22 @@ class ResourceBase extends ResourceStub implements ResourceInterface {
     $this->links = new LinkCollection();
   }
 
+  public function getAttributes(): array {
+    return $this->attributes;
+  }
+
+  public function setAttributes(array $attributes) {
+    $this->attributes = $attributes;
+  }
+
+  public function getAttribute(mixed $path): mixed {
+    $this->propertyAccessor->getValue($this->attributes, $path);
+  }
+
+  public function setAttribute(mixed $path, mixed $value) {
+    $this->propertyAccessor->setValue($this->attributes, $path, $value);
+  }
+
   public function getRelationships(): ?RelationshipCollection {
     return $this->relationships;
   }
