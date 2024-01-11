@@ -4,7 +4,7 @@ namespace RichGerdes\JsonApi\Resource;
 
 interface ResourceInterface extends ResourceStubInterface {
 
-  public const KEYWORD_META = 'data';
+  public const KEYWORD_DATA = 'data';
   
   public const KEYWORD_ATTRIBUTES = 'attributes';
 
