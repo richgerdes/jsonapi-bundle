@@ -16,9 +16,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "symfony/http-foundation": "6.4.x-dev",
-        "doctrine/collections": "3.0.x-dev",
-        "symfony/serializer": "6.4.x-dev",
-        "symfony/property-access": "6.4.x-dev"
+        "symfony/http-foundation": "^6.4",
+        "doctrine/collections": "^3.0",
+        "symfony/serializer": "^6.4",
+        "symfony/property-access": "^6.4"
     }
 }
